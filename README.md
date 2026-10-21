@@ -1,3 +1,19 @@
+# Armbian Build Framework
+
+**Build custom Linux images for single-board computers and embedded devices.**
+
+Kernel · Bootloader · Root filesystem
+
+[Quick start](#quick-start) · [Host requirements](#build-host-requirements) · [Board configuration](config/) · [Build documentation](https://docs.armbian.com/Developer-Guide_Overview/)
+
+Check the host requirements before you run `./compile.sh`. Select the board, kernel and image options for your target.
+
+> Fork under novadusk · Upstream: [armbian/build](https://github.com/armbian/build) · Branch: `main`. Upstream badges, release links and documentation below describe the original project.
+
+---
+
+## Upstream documentation
+
 <h3 align="center">
   <a href=#><img src="https://raw.githubusercontent.com/armbian/.github/master/profile/logosmall.png" alt="Armbian logo"></a>
   <br><br>
@@ -21,7 +37,7 @@ cd build
 ./compile.sh
 ```
 
-<a href="#how-to-build-an-image-or-a-kernel"><img src=".github/README.gif" alt="Build demonstration" width="100%"></a>
+<a href="#quick-start"><img src=".github/README.gif" alt="Build demonstration" width="100%"></a>
 
 ## Build Host Requirements
 
